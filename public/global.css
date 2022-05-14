@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'Blackthorn';
+    src: url('./assets/fonts/Blackthorn/Blackthorn-axq6a.ttf')    format('truetype'),
+        url('./assets/fonts/Blackthorn/Blackthorn-WyL6V.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'CityCrew';
+    src: url('./assets/fonts/CityCrew/CitycrewPersonalUseBold-ywnAY.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DeutscheZierschrift';
+    src: url('/assets/fonts/DeutscheZierschrift/DeutscheZierschrift-ALOA.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FranklinFracture';
+    src: url('./assets/fonts/FranklinFracture/FranklinFractureDemoRegular-L35z4.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SwordSkull';
+    src: url('./assets/fonts/SwordSkull/SwordskullPersonalUse-axqz5.ttf') format('truetype');
+}
+
 html, body {
 	position: relative;
 	width: 100%;
@@ -7,7 +33,7 @@ html, body {
 body {
 	color: #333;
 	margin: 0;
-	padding: 8px;
+	padding: 0;
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
