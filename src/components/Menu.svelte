@@ -1,7 +1,12 @@
 <script>
-    import { page } from '../stores';
+    import { page } from "../stores";
 
-    const pages = ['Home', 'About', 'Products', 'Contact'];
+    const pages = [
+        "Home",
+        "About",
+        // 'Products',
+        "Contact",
+    ];
 
     function handleToggle(event) {
         const element = event.currentTarget;
@@ -11,7 +16,11 @@
     }
 
     function handleClick(event) {
-        const { target: { dataset: { nav } } } = event;
+        const {
+            target: {
+                dataset: { nav },
+            },
+        } = event;
         const splash = document.getElementById("splash");
         const toggle = document.getElementById("toggle");
 
@@ -31,6 +40,7 @@
     </ul>
 </div>
 
+<!-- Toggle menu inspired by https://codepen.io/GeoffreyCrofte/pen/nybYBm -->
 <style>
     #menu {
         position: absolute;
@@ -59,5 +69,3 @@
         cursor: pointer;
     }
 </style>
-
-<!-- Toggle menu inspired by https://codepen.io/GeoffreyCrofte/pen/nybYBm -->

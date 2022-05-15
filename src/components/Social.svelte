@@ -1,9 +1,9 @@
 <script>
     const links = [
-        ["patreon", "#", ""],
-        ["discord", "#", ""],
-        ["instagram", "#", "invert"],
-        ["kickstarter", "#", ""],
+        // ["patreon", "#", ""],
+        // ["discord", "#", ""],
+        ["instagram", "https://www.instagram.com/idealmythos/", "invert"],
+        // ["kickstarter", "#", ""],
     ];
 </script>
 
@@ -15,6 +15,8 @@
                     src="/assets/images/{link[0]}.png"
                     alt={link[0]}
                     class={link[2]}
+                    target="_blank"
+                    rel="noopener noreferrer"
                 />
             </a>
         </li>
